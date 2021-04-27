@@ -1,7 +1,7 @@
 .headline {
   border: 5px solid #390099;
   overflow: auto;
-  width: 570px
+  width: 570px;
 }
 
 .img1 {
@@ -22,7 +22,7 @@ div {
   height: 150px;
 }
 
-.row:after {
+.row {
   content: "";
   display: table;
   clear: both;
