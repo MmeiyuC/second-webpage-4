@@ -1,0 +1,35 @@
+.headline {
+  border: 5px solid #390099;
+  overflow: auto;
+  width: 570px
+}
+
+.img1 {
+  float: left;
+  width: 190px;
+  height: 150px;
+}
+
+div {
+  box-sizing: border-box;
+  text-align: center;
+  width: 580px;
+}
+
+.column {
+  float: left;
+  width: 190px;
+  height: 150px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  text-align: center;
+  border: 5px solid #9e0059;
+  width: 570px;
+}
